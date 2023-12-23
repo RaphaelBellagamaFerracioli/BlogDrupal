@@ -1,0 +1,82 @@
+.bg-secondary {
+    --bs-bg-opacity: 1;
+    background-color: black !important;
+}
+
+#footer > div > div > div > div:nth-child(1){
+	
+	  background: #3a3a3a;
+    text-align: center;
+    font-size: 19px;
+    border-radius: 10px;
+    height: 690px;
+    font-family: monospace;
+	
+}
+#footer > div > div > div > div:nth-child(2){
+	
+	font-size:17px;
+	padding:24px;
+	font-family:monospace;
+}
+#footer > div > div > div > div:nth-child(3){
+	
+	font-size: 17px;
+    padding: 20px;
+	
+}
+p {
+	
+	margin-bottom: 0rem !important;
+}
+.AuthorButton{
+    
+ 
+ 
+    font-size: 16px;
+    font-family: monospace;
+    color: #ffffff;
+    box-sizing: border-box;
+ 
+    
+    text-align: center;
+}
+
+.AuthorButton button{
+	margin-top:2px;
+		color: white;
+    background: black;
+	
+}
+.btn:hover, .node-preview-container .node-preview-backlink:hover, .button:hover, button.link:hover {
+    color: var(--bs-btn-hover-color);
+    background-color: #1f1f1f  !important;
+    border-color: var(--bs-btn-hover-border-color);
+}
+
+#custom_html-5 > div > div > div > p > button.button.button1 > img{
+	
+	height: 20px;
+    width: auto;
+    margin-top: -2px;
+	
+}
+#custom_html-5 > div > div > div > p > button.button.button2 > img {
+	
+	    width: auto;
+    height: 21px;
+    margin-top: -2px;
+}
+/*Rodape final*/
+#block-bootstrap5-iformacosfooter > div.clearfix.text-formatted.field.field--name-body.field--type-text-with-summary.field--label-hidden.field__item > footer > div > strong > img:nth-child(1){
+	width: auto;
+    height: 33px;
+    margin-top: -2px;
+    float: right;
+}
+#block-bootstrap5-iformacosfooter > div.clearfix.text-formatted.field.field--name-body.field--type-text-with-summary.field--label-hidden.field__item > footer > div > strong > img:nth-child(2) {
+	width: auto;
+    height: 37px;
+    margin-top: -2px;
+    float: right;
+}

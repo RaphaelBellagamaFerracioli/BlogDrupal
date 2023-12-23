@@ -1,0 +1,38 @@
+.bg-dark {
+    --bs-bg-opacity: 1;
+    background-color: black !important;
+}
+
+@media (min-width: 992px){
+	.navbar-brand img {
+	    height: 125px;
+	}
+}
+
+/* titulo do site*/
+.navbar-dark .navbar-brand, .footer-dark .navbar-brand {
+    color: #f8f9fa;
+    text-decoration: auto;
+    font-family: emoji;
+}
+/*Elemento do according*/
+#accordionFlushExample {
+	
+	display:flex !important;
+	
+}
+#navbarSupportedContent > div.region.region-nav-main{
+	
+	margin: 0 2em;
+}
+.nav-link, .media-library-view--widget .view-header a {
+    display: block;
+    padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
+    font-size: var(--bs-nav-link-font-size);
+    font-weight: var(--bs-nav-link-font-weight);
+    color: rgb(255 228 0);
+    text-decoration: none;
+    background: none;
+    border: 0;
+    transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out,border-color 0.15s ease-in-out;
+}
